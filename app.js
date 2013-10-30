@@ -6,7 +6,7 @@ var path = require("path"),
     _ = require("underscore");
 
 
-// Our sample application uses the express framework to abstarct away
+// Our sample application uses the express framework to abstract away
 // the raw HTTP concerns. This block creates an instance of the express
 // server and sets configuration related to our static file server and
 // the handlebar template engine.
@@ -17,7 +17,7 @@ var app = express()
             .use(express.bodyParser());
 
 
-// This is our in memory database to use for this bootstraped app. This
+// This is our in memory database to use for this bootstrapped app. This
 // is typically stored in an external system like redis, postgresql or
 // mongodb. We store it here to make the sample application easier to
 // run.
